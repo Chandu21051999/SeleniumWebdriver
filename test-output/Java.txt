@@ -1,0 +1,81 @@
+1. What is a Method ?
+2. How to declare Method?
+        2.1 Syntax
+        2.2  Access_modifiers
+        2.3 Return_Type
+        2.4 Method_Name
+        2.5 Parameters/ Arguments
+3. How to call method?
+    3.1 How to call static method?
+    3.2 How to call non- static method?
+---------------------------------------------------------------------------------------------------------
+1. What is a Method ?
+Method is a action or function used to perform a certain  task to get the
+expected results.
+For example:
+ringing, calling ,send data, received data these are the actions/functions of mobile phone 
+and we can write this function using a method in java..
+-------------------------------------------------------------------------------------------------------------
+2. How to declare Method?
+To declare a method,we need to follow the syntax..
+
+2.1 Syntax:
+access-modifier  return-type  method-name (param-list)
+{
+   //code;
+}
+
+2.2 Access_modifiers:
+access - modifier controls the access level/ scope of method..
+Access - modifier  is also called as access-specifier..
+We can use four types of access-modifiers for method in Java..
+Public,Private,Protected,
+ and Default..
+
+2.3 Return_Type:
+return_type specifies what type of value a method will returns.
+
+For example:
+If you order a pizza..
+then you will get pizza as a return.. 
+food  orderPizza()
+{
+   return pizza;
+}
+return statement is used to return any value or data..
+So here, method has food return type
+Because this method is returning a pizza and pizza is type of food..
+Similarly,
+If method has an int return type then method returns an integer value.
+If method has void returnType then method won't return any value..
+
+2.4 method_name:
+A method name should typically represent what its task is.
+
+2.5 Parameters/ Arguments:
+Sometimes we have to pass  data to the method to perform certain task / operation on that data and that data  is called parameters or also called as arguments..
+-----------------------------------------------------------------------------------------------------------------
+3.How to call a method?
+To get the expected result, we need to execute the method and to execute the method we need to call a method..
+
+3.1 How to call static method? static method is belong to a class i.e static method work for a class..
+To call a static method in Java, write the method’s name followed by   two parentheses()and a semicolon(;)
+For example,
+addNumbers();
+	
+Or you can call static method  using a class name..
+For example:
+Test.addNumbers();
+here, Test is class name and addNumbers () is static method's name.
+
+3.2 How to call non- static method?
+non- static method is belong to an object of a class 
+That means, non-static method work for an object and that's why,
+to call a non-static method first you need to create an object then using that object you can call non-static method..
+
+For example:
+// Creating an object
+Test obj = new Test();  (class refof obj = new classname)
+// Calling non-static method using an object
+obj.addNumbers();
+So here, obj is an object name..
